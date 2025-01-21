@@ -1,0 +1,111 @@
+@charset "UTF-8";
+table, th, td {border: 1px solid;}
+ 
+h2>i {background-color:#4ea;
+padding:4px;
+font-style: normal;   
+font-size: 14px;
+color:#f00;
+/* display: none; 
+visibility: hidden;
+opacity: 0;*/ 
+width:0px;  
+display: inline-block;
+overflow: hidden;
+white-space: nowrap;}
+
+h2:hover>i {/* display:inline;  
+visibility: visible;
+opacity: 1;*/ 
+width:500px; 
+transition:1s;}
+ 
+  /* 1. table-layout:fixed; */
+table#tb01, #tb01 th, #tb01 td {
+border-color: #064;}
+
+#tb01 {width: 900px; height: 600px;
+table-layout:fixed; }
+
+#tb01 th {background-color: #064;
+ color: #fff;}
+
+#tb01 td {padding-left:12px; }
+
+ 
+  /* 2. stripe style */
+#tb02 {width: 900px; height: 600px;}
+
+#tb02 th {height: 55px;
+background-color: #058;
+padding-left: 12px;
+text-align: left; 
+font-size:1.05em;
+color: #fff;}
+
+#tb02 td {padding-left: 12px;}
+
+#tb02 tr:nth-of-type(2n-1) {
+	/* 순서선택자 A:nth-of-type(n)는
+ n번째의 A요소를 지정함. n은 숫자나 수식 가능 */
+background-color:#9cf; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
